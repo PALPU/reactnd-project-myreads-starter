@@ -3,8 +3,7 @@ import * as BooksAPI from "./BooksAPI";
 import BookShelf from "./BookShelf";
 import SearchBar from "./SearchBar";
 import constants from "./constants";
-import { Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import "./App.css";
 
 class BooksApp extends React.Component {

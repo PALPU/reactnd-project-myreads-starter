@@ -35,7 +35,7 @@ class Book extends Component {
         </div>
         <div className="book-title">{title}</div>
         <div className="book-authors">
-          {authors !== undefined && authors.length != 0 && authors.join(", ")}
+          {authors !== undefined && authors.length !== 0 && authors.join(", ")}
         </div>
       </div>
     );
